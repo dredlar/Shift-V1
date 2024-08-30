@@ -21,7 +21,7 @@ local function Remind(msg)
                 Text = msg,
                 Duration = 1
         })
-end;
+end
 
 -- Check if Shift is already executed
 if getgenv().shiftexecuted then 
